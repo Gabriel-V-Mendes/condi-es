@@ -1,0 +1,36 @@
+@charset "utf 8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: linear-gradient(122deg, #000000, #fecf00, #132d0d);
+    background-size: 180% 180%;
+    animation: gradient-animation 21s ease infinite;
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.img{
+    border-radius: 150px;
+}
+
+
+@keyframes body {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
